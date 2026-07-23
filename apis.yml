@@ -1,4 +1,16 @@
 aid: acatus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acatus.png
 name: Acatus
 description: 'Acatus is a company surfaced as a portfolio company of partech and added to the API Evangelist
   network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment
@@ -10,9 +22,18 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-status: dead-lead
+x-enrichment-note: 'Enrichment 2026-07-17, re-verified 2026-07-20: acatus.com (199.16.129.147)
+  no longer belongs to the Acatus fintech; it serves an unrelated content site ("Capital
+  Compass", casino/sportsbook/finance-education — about.html is Pennsylvania speeding-ticket
+  content). No developer/docs/api subdomains resolve (developer/api/docs.acatus.com all
+  empty). The original Acatus (Berlin digital single-asset securitization / debt-capital-
+  markets platform, founded 2016, €5.5M raised 2019, Partech-backed) appears defunct — no
+  live developer surface, OpenAPI, or SDKs exist. No artifacts produced to avoid attributing
+  a third party''s surface to Acatus.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Financial Services
@@ -25,3 +46,8 @@ maintainers:
 common:
 - type: Website
   url: https://acatus.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1

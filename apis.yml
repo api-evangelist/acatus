@@ -31,7 +31,7 @@ x-enrichment-note: 'Enrichment 2026-07-17, re-verified 2026-07-20: acatus.com (1
   markets platform, founded 2016, €5.5M raised 2019, Partech-backed) appears defunct — no
   live developer surface, OpenAPI, or SDKs exist. No artifacts produced to avoid attributing
   a third party''s surface to Acatus.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
